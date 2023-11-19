@@ -1,0 +1,84 @@
+body{
+	background-color: hsl(210, 46%, 95%);
+	/*width: 1440px;*/
+}
+
+img{
+	border-radius: 50%;
+}
+
+span{
+	font-weight:normal;
+}
+
+.mainConteiner{
+	display: flex;
+	margin: 5%;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.container{
+	display: flex;
+	flex: 4;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+.item{
+	border-radius: 15px;
+	padding: 25px;
+	margin: 15px;
+}
+
+.one{
+	background-color: hsl(263, 55%, 52%);
+	color: white;
+	flex-basis: 55%;
+	/*width: 40%;
+	height: 50%;*/
+}
+
+.two{
+	background-color: hsl(217, 19%, 35%);
+	color: white;
+	flex-basis: 25%;
+	/*width: 20%;
+	height: 50%;*/
+}
+
+.three{
+	background-color: white;
+	color: black;
+	flex-basis: 25%;
+	/*width: 20%;
+	height: 50%;*/
+}
+
+.four{
+	background-color: hsl(219, 29%, 14%);
+	color: white;
+	flex-basis: 55%;
+	/*width: 40%;
+	height: 50%;*/
+}
+
+.five{
+	background-color: white;
+	color: black;
+	flex-basis: 15%;
+	/*width: 20%;
+	height: 100%;*/
+	
+	padding-top: 15px;
+}
+
+#avatar img{
+	float: left;
+	margin-right: 15px;
+}
+
+#avatar h5{
+	padding-top: 10px;
+}
