@@ -1,0 +1,33 @@
+body{
+	background-color: hsl(0, 0%, 86%);
+}
+
+.main{
+	background-color: white;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	height: 400px;
+	width: 700px;
+	border-radius: 25px 25px 100px 25px;
+}
+
+#day{
+	background-color: red;
+	float: left;
+}
+
+#month{
+	background-color: blue;
+	float: left;
+}
+#year{
+	background-color: green;
+	float: left;
+}
+
+#result{
+	background-color: yellow;
+	float: center;
+	text-align: left;
+}
