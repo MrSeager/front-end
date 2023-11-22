@@ -11,52 +11,67 @@ span{
 	font-weight:normal;
 }
 
+.mainConteiner{
+	display: flex;
+	margin: 5%;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
 .container{
-	margin: 5% 10% 5% 10%;
-	display: grid;
-	grid-template-columns: repeat(4, auto);
-	gap: 15px;
+	display: flex;
+	flex: 4;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
 }
 
 .item{
 	border-radius: 15px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding: 25px;
+	margin: 15px;
 }
 
 .one{
-	order: 0;
 	background-color: hsl(263, 55%, 52%);
 	color: white;
-	grid-column-start: 1;
-	grid-column-end: 3;
+	flex-basis: 55%;
+	/*width: 40%;
+	height: 50%;*/
 }
 
 .two{
-	order: 1;
 	background-color: hsl(217, 19%, 35%);
 	color: white;
+	flex-basis: 25%;
+	/*width: 20%;
+	height: 50%;*/
 }
 
 .three{
-	order: 3;
 	background-color: white;
 	color: black;
+	flex-basis: 25%;
+	/*width: 20%;
+	height: 50%;*/
 }
 
 .four{
-	order: 4;
 	background-color: hsl(219, 29%, 14%);
 	color: white;
-	grid-column-start: 2;
-	grid-column-end: 4;
+	flex-basis: 55%;
+	/*width: 40%;
+	height: 50%;*/
 }
 
 .five{
-	order: 2;
 	background-color: white;
 	color: black;
-	grid-row-end: span 2;
+	flex-basis: 15%;
+	/*width: 20%;
+	height: 100%;*/
+	
+	padding-top: 15px;
 }
 
 #avatar img{
