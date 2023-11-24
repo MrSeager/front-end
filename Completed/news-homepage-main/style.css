@@ -116,3 +116,16 @@ body{
 	grid-row: span 3;
 	height: 120%;
 }
+
+@media (max-width: 500px)
+{
+	.main{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.mainOne{
+		display: flex;
+		flex-direction: column;
+	}
+}

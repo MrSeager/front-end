@@ -28,8 +28,7 @@ span{
 	order: 0;
 	background-color: hsl(263, 55%, 52%);
 	color: white;
-	grid-column-start: 1;
-	grid-column-end: 3;
+	grid-column: span 2;
 }
 
 .two{
@@ -48,15 +47,14 @@ span{
 	order: 4;
 	background-color: hsl(219, 29%, 14%);
 	color: white;
-	grid-column-start: 2;
-	grid-column-end: 4;
+	grid-column: span 2;
 }
 
 .five{
 	order: 2;
 	background-color: white;
 	color: black;
-	grid-row-end: span 2;
+	grid-row: span 2;
 }
 
 #avatar img{
@@ -66,4 +64,11 @@ span{
 
 #avatar h5{
 	padding-top: 10px;
+}
+
+@media (max-width: 500px){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
 }
