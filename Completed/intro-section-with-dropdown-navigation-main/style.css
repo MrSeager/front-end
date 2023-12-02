@@ -1,0 +1,154 @@
+body{
+	font-family: arial;
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+}
+
+.navbarFP{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dropbtn{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	width: 100px;
+}
+
+.dropbtn:hover{
+	font-weight: bold;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content-first{
+	border-radius: 15px;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 130px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding: 14px;
+	right: 0;
+}
+
+.dropdown-content-second{
+	border-radius: 15px;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 120px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding: 14px;
+	right: 1;
+}
+
+.dropdown-content-first a{
+	margin: 5px;
+}
+
+.dropdown-content-second a{
+	margin: 5px;
+}
+
+.dropdown-content-first img{
+	margin-right: 15px;
+}
+
+.dropdown-content-first a:hover{
+	font-weight: bold;
+}
+
+.dropdown-content-second a:hover{
+	font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content-first{
+	display: flex;
+	flex-direction: column;
+}
+
+.dropdown:hover .dropdown-content-second{
+	display: flex;
+	flex-direction: column;
+}
+
+.btn{
+	border-style: none;
+	background-color: transparent;
+	padding: 16px;
+}
+
+.btn:hover{
+	font-weight: bold;
+}
+
+.regbtn{
+	background-color: transparent;
+	padding: 16px;
+	border-radius: 15px;
+	border-width: 1px;
+}
+
+.regbtn:hover{
+	font-weight: bold;
+	border-width: 2px;
+}
+
+#main-content{
+	display: grid;
+	grid-template-columns: 60% auto;
+	grid-template-rows: 85% auto;
+	margin: 2% 10% 2% 10%;
+	gap: 50px;
+}
+
+.main-content h1{
+	font-size: 100px;
+}
+.main-content p{
+	line-height: 25px;
+}
+
+.morebtn{
+	background-color: black;
+	padding: 16px;
+	border-radius: 15px;
+	border-width: 1px;
+	color: white;
+	font-weight: bold;
+}
+
+.morebtn:hover{
+	background-color: transparent;
+	padding: 16px;
+	border-radius: 15px;
+	border-width: 1px;
+	color: black;
+}
+
+.mainImg{
+	grid-row: span 2;
+}
+
+.mainImg img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.sponsors{
+	display: flex;
+	justify-content: space-between;
+}

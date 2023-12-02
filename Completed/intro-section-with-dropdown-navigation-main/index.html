@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+	<div id="navbar">
+		<div class="navbarFP">
+			<img src="images/logo.svg">
+			
+			<div class="dropdown">
+				<button class="dropbtn">Features</button>
+				<div class="dropdown-content-first">
+					<a><image src="images/icon-todo.svg">Todo List</a><br>
+					<a><image src="images/icon-calendar.svg">Calendar</a><br>
+					<a><image src="images/icon-reminders.svg">Reminders</a><br>
+					<a><image src="images/icon-planning.svg">Planning</a>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<button class="dropbtn">Company</button>
+				<div class="dropdown-content-second">
+					<a>History</a>
+					<a>Our Team</a>
+					<a>Blog</a>
+				</div>
+			</div>
+			<button class="btn">Careers</button>
+			<button class="btn">About</button>
+		</div>
+		
+		<div class="navbarFP">
+			<button class="btn">Login</button>
+			<button class="regbtn">Register</button>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<div class="main-content">
+			<h1>Make<br> remote work</h1>
+			<p>Get your team in sync, no matter your location.<br> Streamline processes, 
+			create team rituals, and<br> watch productivity soar.</p>
+
+			<button class="morebtn">Learn more</button>
+		</div>
+		
+		<div class="mainImg">
+			<img src="images/image-hero-desktop.png">
+		</div>
+		
+		<div class="sponsors">
+			<img src="images/client-databiz.svg">
+			<img src="images/client-audiophile.svg">
+			<img src="images/client-meet.svg">
+			<img src="images/client-maker.svg">
+		</div>
+	</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mr. Seager</a>.
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
