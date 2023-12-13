@@ -1,0 +1,94 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("images/bg-header-desktop.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: hsl(210, 10%, 33%);
+}
+
+p{
+	color: hsl(201, 11%, 66%);
+}
+
+.logoImg{
+	width: 100px;
+}
+
+.section1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2% 25% 5% 25%;
+}
+
+.section1 p{
+	text-align: center;
+}
+
+.section1 button{
+	border-radius: 50px;
+	border-style: none;
+	width: 200px;
+	height: 40px;
+	color: white;
+}
+
+.section1 div{
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+.iosbtn{
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, hsl(171, 66%, 44%) 0px 7px 13px -10px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.macbtn{
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, hsl(233, 100%, 69%) 0px 7px 13px -10px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.section1 button:hover{
+	opacity: 0.6;
+}
+
+.section2{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 100px;
+	margin: 0 15% 0 15%;
+}
+
+.section2 img{
+	grid-row: span 3;
+	height: 400px;
+}
+
+.section1 img{
+	margin-top: 50px;
+}
+
+.section3{
+	display: flex;
+	margin: 0 15% 0 15%;
+	justify-content: space-between;
+}
+
+.section3 div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 25%;
+}
+
+.section3 img{
+	height: 25px;
+}
+
+.section3 p{
+	margin-top: -5px;
+	line-height: 25px;
+}

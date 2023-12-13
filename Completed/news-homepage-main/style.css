@@ -124,9 +124,78 @@ body{
 	color: hsl(5, 85%, 63%);
 }
 
+#navbarMobile{
+	display: none;
+}
+
+#mobileNav{
+	display: none;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5% 5% 0 5%;
+}
+
+#mobileNav button{
+	border: none;
+	background-color: transparent;
+}
+
+.overlay{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: hsl(5, 85%, 63%);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.overlay a{
+	padding: 8px;
+	padding-left: 25px;
+	text-decoration: none;
+	font-size: 36px;
+	color: hsl(240, 100%, 5%);
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+	color: white;
+}
+
+.overlay .closebtn{
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
 @media (max-width: 500px){
 	.main{
 		display: flex;
 		flex-direction: column;
+	}
+	
+	#navbar{
+		display: none;
+	}
+	
+	#navbarMobile{
+		display: block;
+	}
+	
+	#mobileNav{
+		display: flex;
 	}
 }
