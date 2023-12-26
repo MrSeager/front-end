@@ -144,6 +144,10 @@ p{
 }
 
 @media (max-width: 500px){
+	body{
+		background-image: url("images/bg-header-mobile.png");
+	}
+	
 	.section1{
 		margin: 2% 5% 5% 5%;
 	}
