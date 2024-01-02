@@ -3,6 +3,14 @@ body{
 	cursor: default;
 }
 
+#navbarMobile{
+	display: none;
+}
+
+.sidepanel{
+	display: none;
+}
+
 #navbar{
 	display: flex;
 	flex-direction: row;
@@ -369,5 +377,83 @@ footer{
 	
 	.section-12 img{
 		content: url("images/mobile/image-gallery-sugar-cubes.jpg");
+	}
+	
+	#navbar{
+		display: none;
+	}
+	
+	#navbarMobile{
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 90%;
+		margin-left: 5%;
+		z-index: 1;
+	}
+	
+	.sidepanel{
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		height: 250px;
+		top: 15%;
+		right: 10%;
+		background-color: white;
+		overflow-x: hidden;
+		transition: 0.5s;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: 5% 0;
+	}
+	
+	.sidepanel:before{
+		content: '';
+		position: absolute;
+		width: 0;
+		height: 0;
+	}
+	
+	.sidepanel:before{
+		right: 0;
+		top: -15%;
+		border: 25px solid;
+		border-color: transparent white white transparent;
+	}
+	
+
+	
+
+	
+	.sidepanel a{
+		font-size: 20px;
+		color: hsl(232, 10%, 55%);
+		transition: 0.3s;
+		cursor: pointer;
+	}
+	
+	.openbtn{
+		border: none;
+		background-color: transparent;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	
+	#mySidepanel button{
+		width: 40%;
+		height: 50px;
+		border-radius: 50px;
+		border: none;
+		text-transform: uppercase;
+		background-color: hsl(51, 100%, 49%);
+		color: black;
+		cursor: pointer;
+		font-weight: bold;
+		font-size: 15px;
 	}
 }
