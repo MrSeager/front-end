@@ -15,10 +15,9 @@ body{
 }
 
 .containerDiscription{
+	display: flex;
 	flex-direction: column;
-	margin: auto;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin: 5%;
 }
 
 .price{
