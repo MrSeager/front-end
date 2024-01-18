@@ -292,6 +292,11 @@ body{
 }
 
 @media (max-width: 600px){
+	body{
+		background-size: 450px, 450px;
+		background-position: -500% -5%, -400% 50%;
+	}
+	
 	.navbar{
 		display: none;
 	}
