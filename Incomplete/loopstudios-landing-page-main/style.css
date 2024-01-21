@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	font-family: 'Alata', sans-serif;
+	cursor: default;
+}
+
+#menubtnMobile{
+	display: none;
+}
+
+#navbar{
+	position: absolute;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	left: 10%;
+	top: 10%;
+	color: white;
+}
+
+#navbar span{
+	width: 40%;
+	height: 100%;
+}
+
+#navbar a{
+	height: 100%;
+	text-align: start;
+	margin-left: 5%;
+	padding-bottom: 10px;
+}
+
+#navbar a:hover, footer a:hover{
+	cursor: pointer;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+.item-1{
+	background: url("images/desktop/image-hero.jpg") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	margin-top: -4%;
+}
+
+.conteiner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-1 h1{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	color: white;
+	width: 40%;
+	font-size: 80px;
+	font-weight: 300;
+	
+	font-family: 'Josefin Sans', sans-serif;
+	
+	text-transform: uppercase;
+	padding: 2% 2% 1% 2%;
+	position: relative;
+	top: 35%;
+	left: 10%;
+}
+
+.item-2{
+	widows: 100%;
+}
+
+.item-2 img{
+	position: relative;
+	left: 10%;
+	margin-top: 10%;
+}
+
+.item-2 span{
+	z-index: 1;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	top: 133%;
+	padding: 2% 5%;
+}
+
+.item-2 h2{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.item-2 p{
+	font-size: 15px;
+	margin-top: 0;
+}
+
+.item-3{
+	width: 80%;
+	
+	margin: 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+.i3nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.i3nav h3{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.i3nav button{
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 2px;
+	height: 30px;
+	width: 100px;
+	padding-top: 5px;
+	background-color: white;
+}
+
+.i3nav button:hover{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.i3grid{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+	grid-gap: 15px;
+}
+
+.i3grid span{
+	height: 500px;
+}
+
+.i3grid span:hover{
+	opacity: 0.5;
+	cursor: zoom-in;
+	color: black;
+}
+
+.i3-1{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-deep-earth.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-2{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-night-arcade.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-3{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-soccer-team.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-4{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-grid.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-5{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-from-above.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-6{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-pocket-borealis.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-7{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-curiosity.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3-8{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), 
+				url("images/desktop/image-fisheye.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.i3grid h3{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 40px;
+	padding: 120% 15% 0 10%;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 5% 10%;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 55% 25%;
+}
+
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: start;
+	height: 30px;
+}
+
+.social img{
+	margin-left: 3%;
+	padding-bottom: 5px;
+}
+
+.social img:hover{
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+}
+
+footer h4{
+	color: grey;
+	font-weight: 100;
+	margin-top: 0;
+	text-align: end;
+}
